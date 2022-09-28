@@ -8,7 +8,13 @@
 
 //CODE HERE
 
+let lovesCode = true
 
+if (lovesCode === true) {
+  console.log("I love to code!")
+} else {
+  console.log("Coding has its challenges.")
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -24,6 +30,21 @@ var brittanisBirthYear = 1986;
 
 //CODE HERE
 
+let amysName = "Amy"
+let brittanisName = "Brittani"
+
+if (amysAge > brittanisAge) {
+  console.log(`${amysName} is older.`)
+} else if (brittanisAge > amysAge) {
+  console.log(`${brittanisName} is older.`)
+} else if (brittanisAge === amysAge) {
+  console.log("Amy and Brittani are the same age")
+} else {
+  console.log("It looks like something went wrong.")
+}
+
+// I made this more complicated than it needed to be. No need to create variables for their names. 
+
 ////////// PROBLEM 3 //////////
 
 /*
@@ -31,6 +52,12 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
+
+if (amysBirthYear === brittanisBirthYear) {
+  console.log('Amy & Brittani were born in the same year')
+} else {
+  console.log('Amy & Brittani were not born in the same year')
+}
 
 ////////// PROBLEM 4 //////////
 

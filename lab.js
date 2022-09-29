@@ -71,6 +71,19 @@ let rain = true;
 
 //CODE HERE
 
+if (temperature >= 80 && rain) {
+  console.log("You should wear a t-shirt and take an umbrella.")
+} else if (temperature > 60 && temperature < 80 && rain) {
+    console.log("You should wear a rain-jacket.")
+} else if (temperature <= 60) {
+    console.log("You should wear a jacket and carry an umbrella.")
+} else if (temperature >= 80 && rain !== true) {
+    console.log("You should wear swim-trunks and head to the beach.")
+} else if (temperature > 60 && temperature < 80 && rain !== true) {
+    console.log("You should wear a sweatshirt.")
+} 
+
+
 ////////// PROBLEM 5 //////////
 
 /*
@@ -78,6 +91,11 @@ let rain = true;
 */
 
 //CODE HERE
+
+for (let i = 0; i < 10; i++) {
+  console.log('hello')
+}
+
 
 ////////// PROBLEM 6 //////////
 
@@ -87,6 +105,12 @@ let rain = true;
 
 //CODE HERE
 
+
+for (let i = 1; i < 11; i++) {
+  console.log(i)
+}
+
+
 ////////// PROBLEM 7 //////////
 
 /*
@@ -94,6 +118,10 @@ let rain = true;
 */
 
 //CODE HERE
+
+for (let i = 10; i > 0; i--) {
+  console.log(i)
+}
 
 
 ////////// PROBLEM 8 //////////
@@ -107,6 +135,12 @@ let passingScore = 7;
 
 //CODE HERE
 
+while (score < passingScore) {
+  console.log("Your score is not high enough")
+  score++
+}
+
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -118,10 +152,22 @@ let passingScore = 7;
 
 //CODE HERE
 
+let changeMyMind = true
+
+if (changeMyMind === true) {
+  changeMyMind = false
+} else {
+  changeMyMind = true
+}
+
+console.log(changeMyMind)
+
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
 //CODE HERE
+
+
 
 ////////// ADVANCED PROBLEMS //////////
 
